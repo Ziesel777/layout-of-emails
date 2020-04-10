@@ -9,8 +9,15 @@
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "del": "^3.0.0",
-    "gulp": "^3.9.1",
-    "gulp-mjml": "^2.3.0",
+    "gulp": "^3.9.0",
+    "gulp-mjml": "^4.0.1",
     "gulp-webserver": "^0.9.1"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp --production"
+  },
+  "dependencies": {
+    "babel-register": "^6.26.0"
   }
 }

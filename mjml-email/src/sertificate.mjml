@@ -1,0 +1,85 @@
+<mjml>
+<mj-head>
+	<mj-title>ROCKовой подарочный сертификат</mj-title>
+	<mj-attributes>
+		<mj-all
+			font-family="'arial','trebuchet ms','verdana','helvetica',sans-serif;"
+			font-size="16px"
+			color="#4D4D4D"
+			line-height="2"
+		></mj-all>
+		<mj-class name="h1" font-size="30px" align="center"></mj-class>
+		<mj-class name="h3" font-size="18px" align="center"></mj-class>
+		<mj-class name="h4" font-size="18px" align="center"></mj-class>
+
+		<mj-class name="violet" color="#cf90bf"></mj-class>
+		<mj-class name="black" color="#000000"></mj-class>
+
+		<mj-class name="center" align="center"></mj-class>
+		<mj-class name="btn"
+			background-color="#cf90bf"
+			color="#ffffff"
+			inner-padding="25px"
+			border-radius="15px"
+		/>
+	</mj-attributes>
+</mj-head>
+<mj-body width="640px">
+	<mj-section>
+		<mj-column>
+
+			<mj-text mj-class="h1 violet">
+				<b>ROCKовой</b> подарочный сертификат
+			</mj-text>
+			<mj-spacer height="50px"></mj-spacer>
+			<mj-text mj-class="h3">
+				Райдер, добро пожаловать в команду!
+			</mj-text>
+			<mj-text mj-class="h3">
+				Ты получаешь сертификат на <b>{#num}</b> тренировок в студии <b>Rock the Cycle</b>,
+				который тебе дарит друг.
+			</mj-text>
+			<mj-image width="800px" fluid-on-mobile="true" src="./images/ccard-1-msk.png"></mj-image>
+			<mj-text mj-class="h4">
+				Поздравляем, теперь ты - часть нашей классной семьи и команды!
+			</mj-text>
+			<mj-text mj-class="h4">
+				Ты можешь активировать сертификат в течение <b>{#day}</b> дней и записаться на любые тренировки.
+			</mj-text>
+
+			<mj-spacer height="20px"></mj-spacer>
+			<mj-button href="#" mj-class="btn">
+				АКТИВИРОВАТЬ АБОНЕМЕНТ
+			</mj-button>
+			<mj-spacer height="20px"></mj-spacer>
+
+			<mj-text mj-class="h4">
+				Ознакомься с расписанием на сайте и приходи на тренировки, которые понравятся: 
+				<b>Rock the Cycle</b>, <b>Rock my Trip</b>, <b>Rock the Party</b>, <b>Rock Cinema</b> или <b>Hard Rock</b>!
+			</mj-text>
+			<mj-text mj-class="h4">
+				По пятницам отрываемся и пьем игристое после, на выходных по 2 часа катаем под фильмы и концерты. С какой тренировки начать — решать тебе!
+			</mj-text>
+
+			<mj-spacer height="20px"></mj-spacer>
+			<mj-button href="#" mj-class="btn" background-color="#414141">
+				ЗАПИСАТЬСЯ НА ТРЕНИРОВКУ
+			</mj-button>
+			<mj-spacer height="50px"></mj-spacer>
+
+			<mj-text mj-class="h3">
+				Подписывайся на наши соцсети — мы всегда анонсируем конкурсы, устраиваем челленджи, делимся новостями, болтаем и классно проводим время
+			</mj-text>
+			<mj-text mj-class="h3">
+				Обнимаем и ждем на тренировках! Погнали!
+			</mj-text>
+			<mj-text mj-class="h3 " font-size="24px">
+				<b>Rock Family</b>
+			</mj-text>
+			<mj-spacer height="30px"></mj-spacer>
+			<mj-image width="130px" src="./images/rock-cycle-logo.png"></mj-image>
+
+		</mj-column>
+	</mj-section>
+</mj-body>
+</mjml>
