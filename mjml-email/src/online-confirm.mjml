@@ -1,0 +1,59 @@
+<mjml>
+<mj-head>
+	<mj-title>ROCKовой подарочный сертификат</mj-title>
+	<mj-attributes>
+		<mj-all
+			font-family="'arial','trebuchet ms','verdana','helvetica',sans-serif;"
+			font-size="16px"
+			color="#4D4D4D"
+			line-height="1.5"
+		></mj-all>
+		<mj-class name="h1" font-size="30px" align="center"></mj-class>
+		<mj-class name="h2" font-size="24px" align="center"></mj-class>
+		<mj-class name="h3" font-size="18px" align="center"></mj-class>
+		<mj-class name="h4" font-size="18px" align="center"></mj-class>
+
+		<mj-class name="violet" color="#cf90bf"></mj-class>
+		<mj-class name="black" color="#000000"></mj-class>
+
+		<mj-class name="center" align="center"></mj-class>
+		<mj-class name="btn"
+			background-color="#cf90bf"
+			color="#ffffff"
+			inner-padding="25px"
+			border-radius="15px"
+		/>
+	</mj-attributes>
+</mj-head>
+<mj-body width="640px">
+	<mj-section>
+		<mj-column>
+
+			<!-- <mj-text mj-class="h1 violet">
+				<b>ROCKовой</b> подарочный сертификат
+			</mj-text> -->
+			<mj-spacer height="30px"></mj-spacer>
+			<mj-text mj-class="h2 violet">
+				Привет, <b>{#NAME}</b>!
+			</mj-text>
+			<mj-text mj-class="h2 violet">
+				Мы ждём тебя на нашей онлайн-тренировке <b>{#TITLE-TRAINING}</b>, которая пройдет в ZOOM.
+			</mj-text>
+			<mj-text mj-class="h3">
+				Тебе повезло! Вести программу будет самый лучший тренер <b>{#NAME-TRAINER}</b>.<br>
+				Для тренировки тебе необходимо заранее подключиться к онлайн трансляции – ссылку на нее мы тебе скинем на почту за 15 минут до тренировки.
+			</mj-text>
+			<mj-text mj-class="h3">
+				Занятие начнется <b>{#DATE}</b> в <b>{#TIME}</b>.
+			</mj-text>
+			<mj-spacer height="30px"></mj-spacer>
+			<mj-text mj-class="h2 violet">
+				Твоя команда, <b>Rock the Cycle!!!</b>
+			</mj-text>
+			<mj-spacer height="30px"></mj-spacer>
+			<mj-image width="130px" src="./images/rock-cycle-logo.png"></mj-image>
+
+		</mj-column>
+	</mj-section>
+</mj-body>
+</mjml>

@@ -6,7 +6,7 @@
 			font-family="'arial','trebuchet ms','verdana','helvetica',sans-serif;"
 			font-size="16px"
 			color="#4D4D4D"
-			line-height="2"
+			line-height="1.5"
 		></mj-all>
 		<mj-class name="h1" font-size="30px" align="center"></mj-class>
 		<mj-class name="h3" font-size="18px" align="center"></mj-class>
@@ -31,7 +31,7 @@
 			<mj-text mj-class="h1 violet">
 				<b>ROCKовой</b> подарочный сертификат
 			</mj-text>
-			<mj-spacer height="50px"></mj-spacer>
+			<mj-spacer height="30px"></mj-spacer>
 			<mj-text mj-class="h3">
 				Райдер, добро пожаловать в команду!
 			</mj-text>
@@ -47,11 +47,11 @@
 				Ты можешь активировать сертификат в течение <b>{#day}</b> дней и записаться на любые тренировки.
 			</mj-text>
 
-			<mj-spacer height="20px"></mj-spacer>
+			<!-- <mj-spacer height="20px"></mj-spacer> -->
 			<mj-button href="#" mj-class="btn">
 				АКТИВИРОВАТЬ АБОНЕМЕНТ
 			</mj-button>
-			<mj-spacer height="20px"></mj-spacer>
+			<!-- <mj-spacer height="20px"></mj-spacer> -->
 
 			<mj-text mj-class="h4">
 				Ознакомься с расписанием на сайте и приходи на тренировки, которые понравятся: 
@@ -61,11 +61,11 @@
 				По пятницам отрываемся и пьем игристое после, на выходных по 2 часа катаем под фильмы и концерты. С какой тренировки начать — решать тебе!
 			</mj-text>
 
-			<mj-spacer height="20px"></mj-spacer>
+			<!-- <mj-spacer height="20px"></mj-spacer> -->
 			<mj-button href="#" mj-class="btn" background-color="#414141">
 				ЗАПИСАТЬСЯ НА ТРЕНИРОВКУ
 			</mj-button>
-			<mj-spacer height="50px"></mj-spacer>
+			<!-- <mj-spacer height="20px"></mj-spacer> -->
 
 			<mj-text mj-class="h3">
 				Подписывайся на наши соцсети — мы всегда анонсируем конкурсы, устраиваем челленджи, делимся новостями, болтаем и классно проводим время
